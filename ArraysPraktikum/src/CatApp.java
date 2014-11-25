@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 
 public class CatApp 
 {
@@ -53,11 +55,30 @@ public class CatApp
 			if (Character.isLetter(s.charAt(i))){
 				counter++;
 		}
+			
+	
+		while(i < plants.length)
+		{
+			String s = plants[i].botanicalName;
+			System.out.println(s);
+		}
+		
+		System.out.println("+++++");
+		plants = Arrays.copyOfRange(plants, 1, plants.length);
+		
+		//array[0] = null;
+		
+
+		for(i=0; i<plants.length; i++)
+		{
+			System.out.println(plants[i]);
+		}
+		
 		/*String s = plants[i].botanicalName;
 		System.out.println(s);	
 		int counter = su.countChars(s);
 		System.out.println(counter);*/
 
 	}
-
+	}
 }
