@@ -1,6 +1,6 @@
 
-public class StrUtils {
-	
+public class StrUtils 
+{
 	int countChars(String s)
 	{
 		int counter = 0;
@@ -11,8 +11,6 @@ public class StrUtils {
 				counter++;
 		}
 		
-		return counter;
-		
+		return counter;	
 	}
-
 }

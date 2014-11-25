@@ -1,6 +1,6 @@
 
-public class Plant {
-
+public class Plant 
+{
 	String botanicalName;
 	String germanName;
 	
@@ -9,6 +9,4 @@ public class Plant {
 		botanicalName = botName;
 		germanName = gerName;
 	}
-	
-	
 }
